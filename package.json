@@ -9,7 +9,7 @@
     "concurrently": "^8.2.2"
   },
   "scripts": {
-    "start": "concurrently \"cd server && php artisan serve\" \"cd client && flutter run -d chrome\"",
+    "start": "concurrently \"cd server && php artisan serve\" \"cd client && flutter run -d chrome --web-port=4000\"",
     "server-dump": "cd server && composer dump-autoload",
     "server-install": "cd server && composer install",
     "seeds": "cd server && php artisan db:seed"
