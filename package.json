@@ -1,0 +1,17 @@
+{
+  "name": "flutter_laravel",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"cd server && php artisan serve\" \"cd client && flutter run -d chrome\"",
+    "server-dump": "cd server && composer dump-autoload",
+    "server-install": "cd server && composer install",
+    "seeds": "cd server && php artisan db:seed"
+  }
+}

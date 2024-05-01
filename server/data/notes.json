@@ -1,0 +1,25 @@
+[
+    {
+        "title" : "Laravel Update #1",
+        "description" : "Added JSON data to notes.json and messages.json",
+        "user" : "admin@root.com",
+        "date" : "2024-03-11",
+        "time" : 9
+    },
+
+    {
+        "title" : "Laravel Update #2",
+        "description" : "Creating laravel model for notes and messages",
+        "user" : "admin@root.com",
+        "date" : "2024-03-11",
+        "time" : 10
+    },
+
+    {
+        "title" : "Laravel Update #3",
+        "description" : "Attempting to ensure that messages between admin and test user are only accessible by both parties",
+        "user" : "admin@root.com",
+        "date" : "2024-03-11",
+        "time" : 11
+    }
+]

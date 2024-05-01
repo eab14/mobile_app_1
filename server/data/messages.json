@@ -1,0 +1,7 @@
+[
+    {
+        "sender" : "admin@root.com",
+        "reciever" : "test_user@test.com",
+        "message" : "Hello Test..."
+    }
+]

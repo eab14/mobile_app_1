@@ -1,0 +1,19 @@
+[
+    {
+        "name"  : "admin",
+        "password"  : "root",
+        "email"     : "admin@root.com"
+    },
+
+    {
+        "name"  : "deleteTest",
+        "password"  : "deleteMe",
+        "email"     : "delete@test.me"
+    },
+
+    {
+        "name" : "Test User",
+        "passowrd" : "test123",
+        "email" : "test_user@test.com"
+    }
+]
